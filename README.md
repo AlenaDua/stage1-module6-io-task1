@@ -16,7 +16,8 @@ Email: anna@mailserver.com
 Phone: 1234567890
 ```
 
-Also, you have class `FileReader` with method `getDataFromFile(File file)` which bring `File` object and should
+Also, you have class `FileReader` with method `getDataFromFile(File file)`
+which bring `File` object and should
 return `Profile` object with data from the file.
 As a small tip we recommend you follow the next logic:
 
@@ -26,11 +27,13 @@ As a small tip we recommend you follow the next logic:
 3. Create Profile
 ```
 
-- Feel free for creating additional methods and classes, but keep in mind that `getDataFromFile` method will be invoked
+- Feel free for creating additional methods and classes, but keep in mind that `getDataFromFile` method 
+- will be invoked
 by tests in order check validity of your solution. 
 - Uploading logic(input streams) should be only in `FileReader` class. 
 - Don't change folder hierarchy. Don't change method signature.
-- Please, write your code according to java **code style, formation, best practices**. If you are not sure in formation, you can use default `Intelij IDEA` code formatting (`ctrl + alt + L`).
+- Please, write your code according to java **code style, formation, best practices**.
+- If you are not sure in formation, you can use default `Intelij IDEA` code formatting (`ctrl + alt + L`).
 
 Good luck :)
 
