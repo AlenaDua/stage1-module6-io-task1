@@ -3,16 +3,9 @@ package com.epam.mjc.io;
 import java.io.File;
 
 import java.io.BufferedReader;
-import java.io.Reader;
 
-public class FileReader extends Reader {
+public class FileReader {
 
-   @Override
-   public int read(char[] cbuf, int off, int len)  {
-    return 0;}
-
-   @Override
-   public void close()  {}
     public Profile getDataFromFile(File file) {
         Profile profile = new Profile();
         try (BufferedReader reader = new BufferedReader(new java.io.FileReader(file))) {
